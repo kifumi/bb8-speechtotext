@@ -22,7 +22,7 @@ bb8.connect(function() {
   setTimeout(function() {
     console.log("**** FINISH CALIBRATION ****");
     bb8.finishCalibration();
-  }, 10000);
+  }, 10000); //turning on the blue tail light for 10 seconds
 
 
   mqtt.connect(function(client, deviceId) {
