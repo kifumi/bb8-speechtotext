@@ -71,7 +71,7 @@ bb8.connect(function() {
        bb8.on("collision", function(data) {
        console.log("collision detected");
 
-       bb8.roll(255, 180);
+       bb8.roll(255, 0);
        setTimeout(function() {
        bb8.stop();
        }, 2000);
